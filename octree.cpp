@@ -73,7 +73,7 @@ void display()
     glRotatef(rotate_y, 0.0, 1.0, 0.0);
     glScaled(zoom, zoom, zoom);
 
-    drawOctree(tree, 0, center_x, center_y, center_z, cube_size);
+    drawOctree(tree, center_x, center_y, center_z, cube_size);
 
     glFlush();
     glutSwapBuffers();
