@@ -83,7 +83,7 @@ void drawCube(double center_x, double center_y, double center_z, double size)
 void drawOctree(const string& tree, double center_x, double center_y,
                 double center_z, double cube_size)
 {
-    drawOctree(tree, 0, center_x, center_y, cube_size);
+    drawOctree(tree, 0, center_x, center_y, center_z, cube_size);
 }
 
 int drawOctree(const string& tree, size_t pos, double center_x, double center_y,
